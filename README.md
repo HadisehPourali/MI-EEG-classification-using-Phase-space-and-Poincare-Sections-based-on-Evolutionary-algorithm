@@ -10,7 +10,7 @@ The code in this repository analyze MI-EEG data and classify imaginary movements
 BCI Competition IV Dataset 1: http://www.bbci.de/competition/iv/
 
 # Method
-In this research, some novel features are presented for the classification of electroencephalography (EEG) signals. This feature is extracted based on the phase space reconstructed by the filtered signal using CSP. In the proposed method, we fit Poincaré sections in phase space to analyze data trajectory. The hyperparameters of Phase Space Reconstruction (PSR) and Poincaré sections are learned with Evolutionary Algorithm (EA). Finally, statistical features are extracted from the Poincaré intersection points are given for classification.
+In this research, some novel features are presented for the classification of electroencephalography (EEG) signals. This feature is extracted based on the phase space reconstructed by the filtered signal using CSP. In the proposed method, we fit Poincaré sections in phase space to analyze data trajectory. The hyperparameters of Phase Space Reconstruction (PSR) and Poincaré sections are learned with Evolutionary Algorithm (EA). Finally, statistical features are extracted from the Poincaré intersection points are given for classification. Nested cross validation is used for segment data to train, validation and test.
 
 # Result
 The proposed method is implemented on two public datasets that are BCI Competition III Dataset Iva and BCI Competition IV Dataset 1, But the above code is implemented in accordance with second dataset, and have been achieved the accuracy of 89.76% and 71.87% on these two datasets, respectively.
