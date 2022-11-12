@@ -1,5 +1,9 @@
 # MI-EEG-classification-using-Phase-space-and-Poincare-Sections-based-on-Evolutionary-algorithm
-classification of Motor Imagery signals using phase space and Poincare sections
+classification of Motor Imagery signals using phase space and Poincare sections.
+
+This code was used in my paper that was published in Expert Systems with Applications journal and whose link is in the following.
+
+Paper link: [CSP-Ph-PS: Learning CSP-phase space and Poincare sections based on evolutionary algorithm for EEG signals recognition](https://www.sciencedirect.com/science/article/abs/pii/S0957417422016700)
 
 # Background
 Brain-Computer Interface (BCI) based on Motor Imagery (MI) is one of the emerging technology that has been used in smart healthcare applications that help disables connect with the real world by imagining a specific movement in the brain.
